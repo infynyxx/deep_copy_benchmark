@@ -1,0 +1,279 @@
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Measurement Section
+Forking using command: [/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/jre/bin/java, -Xmx1g, -cp, /Users/prajwaltuladhar/src/deep_copy_benchmark/target/deep_copy_benchmark-1.0-SNAPSHOT.jar, org.openjdk.jmh.ForkedMain, -i, 10, -r, 5000ms, -t, 10, -v, true, -wi, 3, com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream, com.infynyxx.deepCopy.generated.RunBenchmark.runDeepCopyByteArrayOutputStream, Throughput, --hostName, 10.168.157.167, --hostPort, 53505]
+Picked up _JAVA_OPTIONS: -Xmx1g
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+# Starting run at: Wed Sep 11 16:40:45 EDT 2013
+# Runtime (per iteration): 5000ms
+# Iterations: 10
+# Thread counts (concurrent threads per iteration): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+# Warmup Iteration   1 (3s in 10 threads): 0.004 ops/msec
+# Warmup Iteration   2 (3s in 10 threads): 0.005 ops/msec
+# Warmup Iteration   3 (3s in 10 threads): 0.006 ops/msec
+Iteration   1 (5000ms in 10 threads): 0.005 ops/msec
+Iteration   2 (5000ms in 10 threads): 0.005 ops/msec
+Iteration   3 (5000ms in 10 threads): 0.005 ops/msec
+Iteration   4 (5000ms in 10 threads): 0.005 ops/msec
+Iteration   5 (5000ms in 10 threads): 0.005 ops/msec
+Iteration   6 (5000ms in 10 threads): 0.006 ops/msec
+Iteration   7 (5000ms in 10 threads): 0.006 ops/msec
+Iteration   8 (5000ms in 10 threads): 0.006 ops/msec
+Iteration   9 (5000ms in 10 threads): 0.005 ops/msec
+Iteration  10 (5000ms in 10 threads): 0.006 ops/msec
+
+Run result "runDeepCopyByteArrayOutputStream": 0.005 ±(95%) 0.000 ±(99%) 0.000 ops/msec
+Run statistics "runDeepCopyByteArrayOutputStream": min = 0.005, avg = 0.005, max = 0.006, stdev = 0.000
+Run confidence intervals "runDeepCopyByteArrayOutputStream": 95% [0.005, 0.006], 99% [0.005, 0.006]
+
+
+Forking using command: [/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/jre/bin/java, -Xmx1g, -cp, /Users/prajwaltuladhar/src/deep_copy_benchmark/target/deep_copy_benchmark-1.0-SNAPSHOT.jar, org.openjdk.jmh.ForkedMain, -i, 10, -r, 5000ms, -t, 10, -v, true, -wi, 3, com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo, com.infynyxx.deepCopy.generated.RunBenchmark.runDeepCopyKryo, Throughput, --hostName, 10.168.157.167, --hostPort, 53505]
+Picked up _JAVA_OPTIONS: -Xmx1g
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Starting run at: Wed Sep 11 16:42:45 EDT 2013
+# Runtime (per iteration): 5000ms
+# Iterations: 10
+# Thread counts (concurrent threads per iteration): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Warmup Iteration   1 (3s in 10 threads): 0.006 ops/msec
+# Warmup Iteration   2 (3s in 10 threads): 0.007 ops/msec
+# Warmup Iteration   3 (3s in 10 threads): 0.007 ops/msec
+Iteration   1 (5000ms in 10 threads): 0.006 ops/msec
+Iteration   2 (5000ms in 10 threads): 0.007 ops/msec
+Iteration   3 (5000ms in 10 threads): 0.007 ops/msec
+Iteration   4 (5000ms in 10 threads): 0.007 ops/msec
+Iteration   5 (5000ms in 10 threads): 0.008 ops/msec
+Iteration   6 (5000ms in 10 threads): 0.008 ops/msec
+Iteration   7 (5000ms in 10 threads): 0.008 ops/msec
+Iteration   8 (5000ms in 10 threads): 0.005 ops/msec
+Iteration   9 (5000ms in 10 threads): 0.007 ops/msec
+Iteration  10 (5000ms in 10 threads): 0.007 ops/msec
+
+Run result "runDeepCopyKryo": 0.007 ±(95%) 0.001 ±(99%) 0.001 ops/msec
+Run statistics "runDeepCopyKryo": min = 0.005, avg = 0.007, max = 0.008, stdev = 0.001
+Run confidence intervals "runDeepCopyKryo": 95% [0.006, 0.008], 99% [0.006, 0.008]
+
+
+Forking using command: [/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/jre/bin/java, -Xmx1g, -cp, /Users/prajwaltuladhar/src/deep_copy_benchmark/target/deep_copy_benchmark-1.0-SNAPSHOT.jar, org.openjdk.jmh.ForkedMain, -i, 10, -r, 5000ms, -t, 10, -v, true, -wi, 3, com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream, com.infynyxx.deepCopy.generated.RunBenchmark.runDeepCopyByteArrayOutputStream, AverageTime, --hostName, 10.168.157.167, --hostPort, 53505]
+Picked up _JAVA_OPTIONS: -Xmx1g
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+# Starting run at: Wed Sep 11 16:44:32 EDT 2013
+# Runtime (per iteration): 5000ms
+# Iterations: 10
+# Thread counts (concurrent threads per iteration): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+# Threads will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Running: com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+# Warmup Iteration   1 (3s in 10 threads): 3135.082 msec/op
+# Warmup Iteration   2 (3s in 10 threads): 2330.784 msec/op
+# Warmup Iteration   3 (3s in 10 threads): 2085.089 msec/op
+Iteration   1 (5000ms in 10 threads): 2249.787 msec/op
+Iteration   2 (5000ms in 10 threads): 1513.855 msec/op
+Iteration   3 (5000ms in 10 threads): 1846.604 msec/op
+Iteration   4 (5000ms in 10 threads): 1941.926 msec/op
+Iteration   5 (5000ms in 10 threads): 1507.504 msec/op
+Iteration   6 (5000ms in 10 threads): 1798.853 msec/op
+Iteration   7 (5000ms in 10 threads): 1324.429 msec/op
+Iteration   8 (5000ms in 10 threads): 1352.682 msec/op
+Iteration   9 (5000ms in 10 threads): 1505.136 msec/op
+Iteration  10 (5000ms in 10 threads): 1303.157 msec/op
+
+Run result "runDeepCopyByteArrayOutputStream": 1634.393 ±(95%) 223.401 ±(99%) 320.978 msec/op
+Run statistics "runDeepCopyByteArrayOutputStream": min = 1303.157, avg = 1634.393, max = 2249.787, stdev = 312.314
+Run confidence intervals "runDeepCopyByteArrayOutputStream": 95% [1410.993, 1857.794], 99% [1313.415, 1955.371]
+
+
+Forking using command: [/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/jre/bin/java, -Xmx1g, -cp, /Users/prajwaltuladhar/src/deep_copy_benchmark/target/deep_copy_benchmark-1.0-SNAPSHOT.jar, org.openjdk.jmh.ForkedMain, -i, 10, -r, 5000ms, -t, 10, -v, true, -wi, 3, com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo, com.infynyxx.deepCopy.generated.RunBenchmark.runDeepCopyKryo, AverageTime, --hostName, 10.168.157.167, --hostPort, 53505]
+Picked up _JAVA_OPTIONS: -Xmx1g
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Starting run at: Wed Sep 11 16:46:30 EDT 2013
+# Runtime (per iteration): 5000ms
+# Iterations: 10
+# Thread counts (concurrent threads per iteration): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+# Threads will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Running: com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Warmup Iteration   1 (3s in 10 threads): 2130.217 msec/op
+# Warmup Iteration   2 (3s in 10 threads): 1569.626 msec/op
+# Warmup Iteration   3 (3s in 10 threads): 1219.816 msec/op
+Iteration   1 (5000ms in 10 threads): 1202.497 msec/op
+Iteration   2 (5000ms in 10 threads): 1236.633 msec/op
+Iteration   3 (5000ms in 10 threads): 1228.932 msec/op
+Iteration   4 (5000ms in 10 threads): 1052.933 msec/op
+Iteration   5 (5000ms in 10 threads): 1055.745 msec/op
+Iteration   6 (5000ms in 10 threads): 1074.217 msec/op
+Iteration   7 (5000ms in 10 threads): 1135.079 msec/op
+Iteration   8 (5000ms in 10 threads): 917.996 msec/op
+Iteration   9 (5000ms in 10 threads): 1040.777 msec/op
+Iteration  10 (5000ms in 10 threads): 1909.982 msec/op
+
+Run result "runDeepCopyKryo": 1185.479 ±(95%) 195.387 ±(99%) 280.729 msec/op
+Run statistics "runDeepCopyKryo": min = 917.996, avg = 1185.479, max = 1909.982, stdev = 273.151
+Run confidence intervals "runDeepCopyKryo": 95% [990.092, 1380.866], 99% [904.751, 1466.208]
+
+
+Forking using command: [/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/jre/bin/java, -Xmx1g, -cp, /Users/prajwaltuladhar/src/deep_copy_benchmark/target/deep_copy_benchmark-1.0-SNAPSHOT.jar, org.openjdk.jmh.ForkedMain, -i, 10, -r, 5000ms, -t, 10, -v, true, -wi, 3, com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream, com.infynyxx.deepCopy.generated.RunBenchmark.runDeepCopyByteArrayOutputStream, SampleTime, --hostName, 10.168.157.167, --hostPort, 53505]
+Picked up _JAVA_OPTIONS: -Xmx1g
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+# Starting run at: Wed Sep 11 16:48:07 EDT 2013
+# Runtime (per iteration): 5000ms
+# Iterations: 10
+# Thread counts (concurrent threads per iteration): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+# Threads will synchronize iterations
+# Benchmark mode: Sampling time
+# Running: com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+# Warmup Iteration   1 (3s in 10 threads): n = 3, mean = 2946 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 2072, 3383, 3389, 3389, 3389, 3389, 3389, 3389 msec/op
+# Warmup Iteration   2 (3s in 10 threads): n = 10, mean = 2085 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1842, 2028, 2313, 2313, 2313, 2313, 2313, 2313 msec/op
+# Warmup Iteration   3 (3s in 10 threads): n = 10, mean = 1543 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1347, 1489, 2166, 2166, 2166, 2166, 2166, 2166 msec/op
+Iteration   1 (5000ms in 10 threads): n = 17, mean = 1540 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1005, 1507, 2259, 2266, 2266, 2266, 2266, 2266 msec/op
+Iteration   2 (5000ms in 10 threads): n = 10, mean = 2082 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1042, 2236, 2355, 2355, 2355, 2355, 2355, 2355 msec/op
+Iteration   3 (5000ms in 10 threads): n = 20, mean = 1218 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 934, 1120, 1954, 2143, 2143, 2143, 2143, 2143 msec/op
+Iteration   4 (5000ms in 10 threads): n = 20, mean = 1528 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1069, 1627, 1868, 2029, 2029, 2029, 2029, 2029 msec/op
+Iteration   5 (5000ms in 10 threads): n = 19, mean = 1484 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1122, 1227, 2106, 2107, 2107, 2107, 2107, 2107 msec/op
+Iteration   6 (5000ms in 10 threads): n = 20, mean = 1442 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 908, 1634, 1872, 1879, 1879, 1879, 1879, 1879 msec/op
+Iteration   7 (5000ms in 10 threads): n = 20, mean = 1430 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 812, 1464, 1891, 1950, 1950, 1950, 1950, 1950 msec/op
+Iteration   8 (5000ms in 10 threads): n = 17, mean = 1228 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 313, 1298, 1852, 2047, 2047, 2047, 2047, 2047 msec/op
+Iteration   9 (5000ms in 10 threads): n = 20, mean = 1269 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 809, 1175, 1805, 1927, 1927, 1927, 1927, 1927 msec/op
+Iteration  10 (5000ms in 10 threads): n = 17, mean = 1213 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 822, 1218, 1609, 1858, 1858, 1858, 1858, 1858 msec/op
+
+Run result "runDeepCopyByteArrayOutputStream":
+  samples = 180
+       mean =   1413.555 ±(95%) 59.228 ±(99%) 77.842 msec/op
+        min =    313.239 msec/op
+  p(0.0000) =    476.502 ±(95%) 38.459 ±(99%) 50.904 msec/op
+  p(0.5000) =   1286.103 ±(95%) 9.614 ±(99%) 12.726 msec/op
+  p(0.9000) =   2025.241 ±(95%) 16.174 ±(99%) 21.407 msec/op
+  p(0.9500) =   2190.049 ±(95%) 10.253 ±(99%) 13.570 msec/op
+  p(0.9900) =   2326.325 ±(95%) 5.563 ±(99%) 7.363 msec/op
+  p(0.9990) =   2338.381 ±(95%) 5.769 ±(99%) 7.636 msec/op
+  p(0.9999) =   2327.926 ±(95%) 6.880 ±(99%) 9.106 msec/op
+  p(1.0000) =   2339.187 ±(95%) 5.104 ±(99%) 6.756 msec/op
+        max =   2354.782 msec/op
+
+
+Forking using command: [/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/jre/bin/java, -Xmx1g, -cp, /Users/prajwaltuladhar/src/deep_copy_benchmark/target/deep_copy_benchmark-1.0-SNAPSHOT.jar, org.openjdk.jmh.ForkedMain, -i, 10, -r, 5000ms, -t, 10, -v, true, -wi, 3, com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo, com.infynyxx.deepCopy.generated.RunBenchmark.runDeepCopyKryo, SampleTime, --hostName, 10.168.157.167, --hostPort, 53505]
+Picked up _JAVA_OPTIONS: -Xmx1g
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Starting run at: Wed Sep 11 16:50:00 EDT 2013
+# Runtime (per iteration): 5000ms
+# Iterations: 10
+# Thread counts (concurrent threads per iteration): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+# Threads will synchronize iterations
+# Benchmark mode: Sampling time
+# Running: com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Warmup Iteration   1 (3s in 10 threads): n = 9, mean = 991 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 708, 803, 1542, 1542, 1542, 1542, 1542, 1542 msec/op
+# Warmup Iteration   2 (3s in 10 threads): n = 10, mean = 1823 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1560, 1849, 1891, 1891, 1891, 1891, 1891, 1891 msec/op
+# Warmup Iteration   3 (3s in 10 threads): n = 10, mean = 1214 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 599, 1496, 1789, 1789, 1789, 1789, 1789, 1789 msec/op
+Iteration   1 (5000ms in 10 threads): n = 20, mean = 1300 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 657, 1531, 1681, 1697, 1697, 1697, 1697, 1697 msec/op
+Iteration   2 (5000ms in 10 threads): n = 21, mean = 1209 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 691, 1336, 1645, 1740, 1811, 1811, 1811, 1811 msec/op
+Iteration   3 (5000ms in 10 threads): n = 30, mean = 1001 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 595, 959, 1472, 1529, 1549, 1549, 1549, 1549 msec/op
+Iteration   4 (5000ms in 10 threads): n = 20, mean = 1168 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 622, 1345, 1588, 1622, 1622, 1622, 1622, 1622 msec/op
+Iteration   5 (5000ms in 10 threads): n = 30, mean = 872 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 538, 871, 1128, 1156, 1163, 1163, 1163, 1163 msec/op
+Iteration   6 (5000ms in 10 threads): n = 20, mean = 1017 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 701, 929, 1669, 1781, 1781, 1781, 1781, 1781 msec/op
+Iteration   7 (5000ms in 10 threads): n = 26, mean = 1049 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 575, 918, 1643, 1690, 1708, 1708, 1708, 1708 msec/op
+Iteration   8 (5000ms in 10 threads): n = 27, mean = 888 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 616, 789, 1435, 1452, 1463, 1463, 1463, 1463 msec/op
+Iteration   9 (5000ms in 10 threads): n = 30, mean = 954 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 641, 880, 1235, 1279, 1316, 1316, 1316, 1316 msec/op
+Iteration  10 (5000ms in 10 threads): n = 30, mean = 857 msec/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 614, 845, 1104, 1380, 1409, 1409, 1409, 1409 msec/op
+
+Run result "runDeepCopyKryo":
+  samples = 254
+       mean =   1011.141 ±(95%) 38.393 ±(99%) 50.459 msec/op
+        min =    538.031 msec/op
+  p(0.0000) =    564.759 ±(95%) 4.290 ±(99%) 5.679 msec/op
+  p(0.5000) =    897.300 ±(95%) 3.856 ±(99%) 5.104 msec/op
+  p(0.9000) =   1539.698 ±(95%) 6.979 ±(99%) 9.237 msec/op
+  p(0.9500) =   1610.559 ±(95%) 4.223 ±(99%) 5.590 msec/op
+  p(0.9900) =   1730.134 ±(95%) 8.169 ±(99%) 10.813 msec/op
+  p(0.9990) =   1784.023 ±(95%) 8.556 ±(99%) 11.325 msec/op
+  p(0.9999) =   1792.582 ±(95%) 6.771 ±(99%) 8.961 msec/op
+  p(1.0000) =   1791.802 ±(95%) 7.146 ±(99%) 9.459 msec/op
+        max =   1811.469 msec/op
+
+
+Forking using command: [/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/jre/bin/java, -Xmx1g, -cp, /Users/prajwaltuladhar/src/deep_copy_benchmark/target/deep_copy_benchmark-1.0-SNAPSHOT.jar, org.openjdk.jmh.ForkedMain, -i, 10, -r, 5000ms, -t, 10, -v, true, -wi, 3, com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream, com.infynyxx.deepCopy.generated.RunBenchmark.runDeepCopyByteArrayOutputStream, SingleShotTime, --hostName, 10.168.157.167, --hostPort, 53505]
+Picked up _JAVA_OPTIONS: -Xmx1g
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+# Starting run at: Wed Sep 11 16:51:38 EDT 2013
+# Runtime (per iteration): single-shot
+# Iterations: 10
+# Thread counts (concurrent threads per iteration): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+# Threads will synchronize iterations
+# Benchmark mode: Single shot invocation time
+# Running: com.infynyxx.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream
+# Warmup Iteration   1 (single-shot in 10 threads): 6564.631 msecs
+# Warmup Iteration   2 (single-shot in 10 threads): 2639.877 msecs
+# Warmup Iteration   3 (single-shot in 10 threads): 2134.669 msecs
+Iteration   1 (single-shot in 10 threads): 1689.842 msecs
+Iteration   2 (single-shot in 10 threads): 1803.293 msecs
+Iteration   3 (single-shot in 10 threads): 1821.204 msecs
+Iteration   4 (single-shot in 10 threads): 1830.176 msecs
+Iteration   5 (single-shot in 10 threads): 2352.429 msecs
+Iteration   6 (single-shot in 10 threads): 1893.945 msecs
+Iteration   7 (single-shot in 10 threads): 1634.460 msecs
+Iteration   8 (single-shot in 10 threads): 1373.447 msecs
+Iteration   9 (single-shot in 10 threads): 2391.103 msecs
+Iteration  10 (single-shot in 10 threads): 2044.806 msecs
+
+Run result "runDeepCopyByteArrayOutputStream": 1883.470 ±(95%) 223.230 ±(99%) 320.733 msecs
+Run statistics "runDeepCopyByteArrayOutputStream": min = 1373.447, avg = 1883.470, max = 2391.103, stdev = 312.076
+Run confidence intervals "runDeepCopyByteArrayOutputStream": 95% [1660.240, 2106.700], 99% [1562.738, 2204.203]
+
+
+Forking using command: [/Library/Java/JavaVirtualMachines/jdk1.7.0_11.jdk/Contents/Home/jre/bin/java, -Xmx1g, -cp, /Users/prajwaltuladhar/src/deep_copy_benchmark/target/deep_copy_benchmark-1.0-SNAPSHOT.jar, org.openjdk.jmh.ForkedMain, -i, 10, -r, 5000ms, -t, 10, -v, true, -wi, 3, com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo, com.infynyxx.deepCopy.generated.RunBenchmark.runDeepCopyKryo, SingleShotTime, --hostName, 10.168.157.167, --hostPort, 53505]
+Picked up _JAVA_OPTIONS: -Xmx1g
+Benchmarks:
+com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Starting run at: Wed Sep 11 16:52:10 EDT 2013
+# Runtime (per iteration): single-shot
+# Iterations: 10
+# Thread counts (concurrent threads per iteration): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+# Threads will synchronize iterations
+# Benchmark mode: Single shot invocation time
+# Running: com.infynyxx.deepCopy.RunBenchmark.runDeepCopyKryo
+# Warmup Iteration   1 (single-shot in 10 threads): 4888.794 msecs
+# Warmup Iteration   2 (single-shot in 10 threads): 2086.008 msecs
+# Warmup Iteration   3 (single-shot in 10 threads): 1312.131 msecs
+Iteration   1 (single-shot in 10 threads): 1114.415 msecs
+Iteration   2 (single-shot in 10 threads): 1082.850 msecs
+Iteration   3 (single-shot in 10 threads): 1476.531 msecs
+Iteration   4 (single-shot in 10 threads): 1135.011 msecs
+Iteration   5 (single-shot in 10 threads): 1149.675 msecs
+Iteration   6 (single-shot in 10 threads): 983.510 msecs
+Iteration   7 (single-shot in 10 threads): 1566.342 msecs
+Iteration   8 (single-shot in 10 threads): 1275.493 msecs
+Iteration   9 (single-shot in 10 threads): 1324.151 msecs
+Iteration  10 (single-shot in 10 threads): 1058.810 msecs
+
+Run result "runDeepCopyKryo": 1216.679 ±(95%) 135.639 ±(99%) 194.884 msecs
+Run statistics "runDeepCopyKryo": min = 983.510, avg = 1216.679, max = 1566.342, stdev = 189.624
+Run confidence intervals "runDeepCopyKryo": 95% [1081.039, 1352.318], 99% [1021.795, 1411.563]
+
+
+Benchmark                                                      Mode Thr    Cnt  Sec         Mean   Mean error    Units
+c.i.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream    thrpt  10     10    5        0.005        0.000 ops/msec
+c.i.deepCopy.RunBenchmark.runDeepCopyKryo                     thrpt  10     10    5        0.007        0.001 ops/msec
+c.i.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream     avgt  10     10    5     1634.393      320.978  msec/op
+c.i.deepCopy.RunBenchmark.runDeepCopyKryo                      avgt  10     10    5     1185.479      280.729  msec/op
+c.i.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream   sample  10    180    5     1413.555       77.842  msec/op
+c.i.deepCopy.RunBenchmark.runDeepCopyKryo                    sample  10    254    5     1011.141       50.459  msec/op
+c.i.deepCopy.RunBenchmark.runDeepCopyByteArrayOutputStream       ss  10     10    0     1883.470      320.733    msecs
+c.i.deepCopy.RunBenchmark.runDeepCopyKryo                        ss  10     10    0     1216.679      194.884    msecs
